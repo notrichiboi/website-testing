@@ -1,0 +1,40 @@
+{
+  "name": "bbs-studio-ultimate",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Browser-based Minecraft Bedrock content creation suite with smart pack import, live previews, particle editing, and BBS-compatible ZIP export.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "server": "tsx server/index.ts",
+    "typecheck": "tsc --noEmit",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-three/drei": "latest",
+    "@react-three/fiber": "latest",
+    "express": "latest",
+    "framer-motion": "latest",
+    "jszip": "latest",
+    "lucide-react": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "three": "latest",
+    "zustand": "latest"
+  },
+  "devDependencies": {
+    "@types/express": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest",
+    "tsx": "latest",
+    "typescript": "latest"
+  }
+}
